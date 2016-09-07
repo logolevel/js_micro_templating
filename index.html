@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<script type="text/template" id="test">
+	<% for (var i = 0; i < data.length; i++) {  %>
+		<h1><%= data[i].title %></h1>
+		<p><%= data[i].content %></p>
+	<% } %>
+</script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  -->
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/tmpl/tmpl.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
